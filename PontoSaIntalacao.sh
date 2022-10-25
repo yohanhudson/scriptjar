@@ -32,6 +32,7 @@ then
 	mysql -u root -p
 	urubu100
 else
+	echo "TESTE PARA VER SE FUNCIONA.............................................................................................................................................................................."
 	sudo apt update && sudo apt upgrade -y
 	sudo apt install docker.io
 	sudo systemctl start docker
